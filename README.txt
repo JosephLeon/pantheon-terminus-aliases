@@ -1,7 +1,7 @@
 # Pantheon and Terminus
 alias term='terminus'
 alias termsites='term sites show'
-alias termlog='term auth log'
+alias termlog='term auth login'
 function termuli() {
   term drush uli --site=$1 --env=$2
 }
