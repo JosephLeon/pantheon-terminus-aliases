@@ -6,7 +6,7 @@ function termuli() {
   term drush uli --site=$1 --env=$2
 }
 function termenv() {
-  term site environements ${1+"--site=$1"}
+  term site environments ${1+"--site=$1"}
 }
 function termcreateenv() {
   term site create-env --site=$1 --env=$2 --from-env=$3
